@@ -1,0 +1,33 @@
+/* Your styles go in here. */
+* { 
+  text-align: center;  /* Center all content */
+}
+
+h1 { 
+  padding-left:35px;
+}
+
+  .button {
+    position: absolute;
+    top:50%;
+    width: 600px
+}
+
+
+
+
+
+
+/* Form specification: Your page needs to have a form that...
+✅ has a method attribute with the value of "post" and an action attribute with the value of "/pets"
+✅ has an single-line text input with an id of "name", a name of "pet_name", and with an associated label that reads "Name".
+✅ has a drop-down with an id of "type", a name of "pet_type", an associated label that reads "Type", with only the options "Cat", "Dog", "Hamster", "Other", "Zebra".
+✅ has a multi-line text input with an id of "bio", a name of "pet_bio", and an associated label that reads "Biography"
+✅ has an email input with id of "owner-email", a name of "pet_owner_email", and with an associated label that reads "Owner's Email"
+✅ has a button that reads "Create new pet" with type "submit" and id "new-pet-submit-button"
+✅ has a button reads "Reset" with type "reset"
+... is 600px wide when the screen is greater than or equal to 600px wide
+... uses grid layout to layout labels and form elements when the screen is greater than or equal to 600px wide
+... is the width of the screen when the screen is less than 600px wide
+... lays out the labels and form elements as full width when the screen is less than 600px wide  
+*/
