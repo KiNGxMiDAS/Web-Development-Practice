@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Your markup goes here. -->
+  <div>  
+  <h1>  PETS ‼️</h1>
+
+<!-- Form which will send a POST request to the current URL -->
+    <form method="post" action="/pets">
+
+      <!-- label for user to input name on a single line -->
+      <label>Name
+        <input id="name" name="pet_name"/>
+      </label><br><br>
+
+      <!-- ⬇️ drop-down -->
+      <label>Type
+        <select id="type" name="pet_type">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="other">Other</option>
+            <option value="zebra">Zebra</option>
+        </select><br><br>
+      </label>
+
+      <!-- multi-line text input -->
+      <label>Biography<br>
+        <textarea id="bio" name="pet_bio">
+        </textarea>
+      </label><br><br>
+
+      <!-- 📧 email text input --> 
+      <label>Owner's Email
+        <input id="owner-email" name="pet_owner_email">
+      </label><br><br>
+
+      <!-- 🔘 button -- Create a new pet -- submit button -->
+      <button type="submit">Create new pet</button><br><br><br>
+
+      <!-- 🔘 button -- reset-->
+      <button type="reset">Reset</button><br><br><br>
+
+    </form>
+
+<p>Form isn't visible...we gotta style that mf</p>
+
+<p>The default width of text input fields is 20 characters.</p>
+
+</div>
+
+</body>
+
+</html>
+
+
+<!-- 
+Form specification: Your page needs to have a form that...
+✅ has a method attribute with the value of "post" and an action attribute with the value of "/pets"
+✅ has an single-line text input with an id of "name", a name of "pet_name", and with an associated label that reads "Name".
+✅ has a drop-down with an id of "type", a name of "pet_type", an associated label that reads "Type", with only the options "Cat", "Dog", "Hamster", "Other", "Zebra".
+✅ has a multi-line text input with an id of "bio", a name of "pet_bio", and an associated label that reads "Biography"
+✅ has an email input with id of "owner-email", a name of "pet_owner_email", and with an associated label that reads "Owner's Email"
+✅ has a button that reads "Create new pet" with type "submit" and id "new-pet-submit-button"
+✅ has a button reads "Reset" with type "reset"
+... is 600px wide when the screen is greater than or equal to 600px wide
+... uses grid layout to layout labels and form elements when the screen is greater than or equal to 600px wide
+... is the width of the screen when the screen is less than 600px wide
+... lays out the labels and form elements as full width when the screen is less than 600px wide 
+-->
+
+
+<!-- Emmet is a helpful tool for programming HTML that's like snippets on steroids
+:g# -- :g will go to a line and enter # (num) of your choice
+Type of the name of any element followed by a period with a class then a hash[id]; hit tab to expand
+      ex. nav.cool#awesome will result to -> <nav clas="cool" id="awesome"></nav>
+
+header+[sibling]
+      ex. header+article>ul>li*5>Lorem 
+
+    -->
+
