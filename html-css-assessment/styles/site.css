@@ -1,4 +1,9 @@
 /* Your styles go in here. */
+
+* {
+  box-sizing: border-box;
+}
+
 * { 
   text-align: center;  /* Center all content */
 }
