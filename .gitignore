@@ -1,6 +1,9 @@
 # Ignore Mac system files
 .DS_store
 
+# Ignore the build directory
+/html-css-assessment/.DS_store
+
 # Ignore node_modules folder
 node_modules
 
